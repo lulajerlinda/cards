@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+      <header class="menu">  
+       <div class="menu-wrap">
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul>
+                    <li> <div  class="btn btn--blue btn--big" onclick="req1(3)" data-sku="3"><span class="btn__text">post 3</span></div></li>
+                    <li> <div  class="btn btn--blue btn--big" onclick="req1(2)" data-sku="2"><span class="btn__text">post 2</span></div></li>
+                    <li> <div  class="btn btn--blue btn--big" onclick="req1(7)" data-sku="7"><span class="btn__text">post 7</span></div></li>
+                </ul>
+            </nav>
+            <label for="checkbox">
+                <i class="fa fa-bars menu-icon icon-bars" onclick="pushMenu();"></i>
+            </label>
+        </div>
+        </header>
+        <section class="card-container" id="cards"></section>
+    </body>
+</html>
+
+
