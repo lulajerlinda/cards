@@ -1,4 +1,4 @@
-    /* Block */
+
 .btn {
 	text-decoration: none;
 	background-color: white;
@@ -13,8 +13,6 @@
 }
 
 
-/* Element */
-
 .btn__text {
 	padding: 0 10px;
 	color: #2d3e50;
@@ -26,7 +24,6 @@
 	text-shadow: 1px 0 0 #fff;
 }
 
-/* Modifier */
 .btn--big {
 	font-size: 28px;
 	padding: 10px;
@@ -36,7 +33,6 @@
             color: #2d3e50
         }
 
-/* Modifier */
 .btn--blue {
 	padding: 2px;
 	border-radius: 50em;
