@@ -1,4 +1,47 @@
-
+@import url(https://fonts.googleapis.com/css?family=Amaranth:400,400italic,700italic,700);
+body {
+	font-family: "arial","courier","helvetica";
+	text-align: center;
+	background-color: #1bbc9d;
+    overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+header {
+	height: 70px;
+	padding: 10px 0;
+}
+nav {
+	position: absolute;
+	background-color: #3D4852;
+	top: 70px;
+	left: 0;
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+nav ul li {
+	padding: 0 15px;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 12px;
+	color: #DAE1E7;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+	color: #eb6f4a;
+}
 .btn {
 	text-decoration: none;
 	background-color: white;
@@ -11,8 +54,6 @@
 	padding: 10px 5px;
     cursor: pointer;
 }
-
-
 .btn__text {
 	padding: 0 10px;
 	color: #2d3e50;
@@ -23,7 +64,6 @@
 	margin: 0 0 18px;
 	text-shadow: 1px 0 0 #fff;
 }
-
 .btn--big {
 	font-size: 28px;
 	padding: 10px;
@@ -38,13 +78,7 @@
 	border-radius: 50em;
 	border: 2px solid #2d3e50;
 }
-@import url(https://fonts.googleapis.com/css?family=Amaranth:400,400italic,700italic,700);
-body {
-	font-family: "arial","courier","helvetica";
-	text-align: center;
-	background-color: #1bbc9d;
-    overflow-x: hidden;
-}
+
 .card-container {
 	max-width: 1500px;
 	margin: 50px auto;
@@ -87,16 +121,8 @@ body {
 .c-card--right {
 	float: right;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
-}
-header {
-	height: 70px;
-	padding: 10px 0;
-}
+
+
 .menu-wrap {
 	display: flex;
 	justify-content: space-between;
@@ -107,33 +133,7 @@ header {
 	color: #ffffff;
 	line-height: 50px;
 }
-nav {
-	position: absolute;
-	background-color: #3D4852;
-	top: 70px;
-	left: 0;
-	width: 100%;
-}
-nav ul {
-	list-style-type: none;
-	max-height: 0px;
-	overflow: hidden;
-	transition: all 0.5s;
-}
-nav ul li {
-	padding: 0 15px;
-}
-nav ul li a {
-	display: inline-block;
-	padding: 12px;
-	color: #DAE1E7;
-	text-decoration: none;
-	letter-spacing: 0.05em;
-}
-nav ul li a:hover,
-nav ul li a:focus {
-	color: #eb6f4a;
-}
+
 #checkbox {
 	display: none;
 }
